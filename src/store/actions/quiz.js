@@ -65,8 +65,6 @@ export function fetchQuizesError(error) {
 }
 
 export function quizSetState(answerState, results) {
-	console.log(answerState);
-
 	return {
 		type: QUIZ_SET_STATE,
 		answerState,
